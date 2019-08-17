@@ -72,9 +72,30 @@ figure {
   overflow: hidden;
   position: relative; }
 
-#test{
-  height: 500px;
-  width: 500px;
+.iconbox{
+  height: 80px;
+  width: 80px;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.skillsfield{
+  text-align: center;
+}
+
+.education{
+  text-align: right;
+  list-style-type:none
+}
+
+.school-text{
+  color: black;
+}
+
+.gitLink{
+  text-decoration: none;
 }
 
 #colorlib-aside {

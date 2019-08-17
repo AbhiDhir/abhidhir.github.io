@@ -1,64 +1,87 @@
 import React, { Component } from 'react'
 
-export default class Timeline extends Component {
+export default class Skills extends Component {
   render() {
     return (
       <div>
-        <section className="colorlib-experience" data-section="timeline">
-          <div className="colorlib-narrow-content">
-            <div className="row">
-              <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                <span className="heading-meta">highlights</span>
-                <h2 className="colorlib-heading animate-box">Timeline</h2>
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-md-12">
-                <div className="timeline-centered">
-                  <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-                    <div className="timeline-entry-inner">
-                      <div className="timeline-icon color-3">
-                        <i className="icon-pen2" />
-                      </div>
-                      <div className="timeline-label">
-                        <h2>Internship at Juniper <span>2019-present</span></h2>
-                        <p>I recently have joined the Juniper Networs as a Software Developer-Intern in the DevOps team. My major part of the work has been into the field of creating sustainable and flexible CI/CD (Continuous Integration & Continuous Development) pipelines which enables developers at Juniper to do rapid development. I am also exploring the role of container technology like Docker and container-orchrastation technologies like K8s, Swarm to create industry standard production environments.</p>
-                      </div>
-                    </div>
-                  </article>
-                  <article className="timeline-entry animate-box" data-animate-effect="fadeInTop">
-                    <div className="timeline-entry-inner">
-                      <div className="timeline-icon color-4">
-                        <i className="icon-pen2" />
-                      </div>
-                      <div className="timeline-label">
-                        <h2>Undergraduation at DAIICT<span>2015-2019</span></h2>
-                        <p>I am pursuing my under-graduation studies with major in I.C.T.(Information & Communication Technology). I have taken courses like DSA, OOPs, Computer Networks, IOT, Web-Data Management over the years and have better understanding of these subjects.I have also been part of S.B.G.(Student Body Govenance) scince my first year of college.</p>
-                      </div>
-                    </div>
-                  </article>
-                  <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-                    <div className="timeline-entry-inner">
-                      <div className="timeline-icon color-5">
-                        <i className="icon-pen2" />
-                      </div>
-                      <div className="timeline-label">
-                        <h2>Primary and Higher Education <span>2003-2015</span></h2>
-                        <p>I have completed my higher secondary education with major subjects as Physics,Chemistry & Maths with 91 merit. During my time at school, I have developed interest in solving complex problems of the fundamental physics which helped me to improve my understanding of any problem and also my mathematical skills to actually solve the problems.</p> 
-                      </div>
-                    </div>
-                  </article>
-                  <article className="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
-                    <div className="timeline-entry-inner">
-                      <div className="timeline-icon color-none">
-                      </div>
-                    </div>
-                  </article>
-                </div>
-              </div>
+          <section className="colorlib-skills" data-section="skills">
+        <div className="colorlib-narrow-content">
+          <div className="row">
+            <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+              <span className="heading-meta">My Skills</span>
+              <h2 className="colorlib-heading animate-box">Areas of Experience</h2>
             </div>
           </div>
-        </section>
+          <div className="row">
+            <div className="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+                <h3 className="skillsfield">Programming Languages</h3>
+                <div className="row">
+                    <div className="col-md-4">
+                        <img className="iconbox" src="images/java.png" alt="Java"></img>
+                    </div>
+                    <div className="col-md-4">
+                        <img className="iconbox" src="images/python.png" alt="Python"></img>
+                    </div>
+                    <div className="col-md-4">
+                        <img className="iconbox" src="images/cplus.png" alt="C++"></img>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-md-6" >
+                        <img className="iconbox" src="images/sql.png" alt="SQL"></img>
+                    </div>
+                    <div className="col-md-6">
+                        <img className="iconbox" src="images/csharp.png" alt="C#"></img>
+                    </div>
+                </div>
+            </div>
+            <div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
+                <h3 className="skillsfield">Web/Mobile Development</h3>
+                <div className="row">
+                    <div className="col-md-4">
+                        <img className="iconbox" src="images/html.png" alt="HTML"></img>
+                    </div>
+                    <div className="col-md-4">
+                        <img className="iconbox" src="images/css.png" alt="CSS"></img>
+                    </div>
+                    <div className="col-md-4">
+                        <img className="iconbox" src="images/android.png" alt="Android"></img>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-md-6" >
+                        <img className="iconbox" src="images/react.png" alt="React JS"></img>
+                    </div>
+                    <div className="col-md-6">
+                        <img className="iconbox" src="images/javascript.png" alt="Javascript"></img>
+                    </div>
+                </div>
+            </div>
+            <div className="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+                <h3 className="skillsfield">Other</h3>
+                <div className="row">
+                    <div className="col-md-4">
+                        <img className="iconbox" src="images/git.png" alt="Git"></img>
+                    </div>
+                    <div className="col-md-4">
+                        <img className="iconbox" src="images/aspnet.svg" alt="ASP.NET"></img>
+                    </div>
+                    <div className="col-md-4">
+                        <img className="iconbox" src="images/azure.svg" alt="Microsoft Azure"></img>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-md-6" >
+                        <img className="iconbox" src="images/tex.png" alt="Latex"></img>
+                    </div>
+                    <div className="col-md-6">
+                        <img className="iconbox" src="images/net.png" alt="x86"></img>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
       </div>
     )
   }
