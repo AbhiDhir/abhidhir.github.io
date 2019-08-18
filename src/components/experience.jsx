@@ -23,9 +23,9 @@ export default class Experience extends Component {
                     <div className="timeline-label">
                       <h2>NCR - Software Development Intern <span>May 2019-Aug 2019</span></h2>
                       <ul>
-                        <li>Rewrote/Upgraded legacy backend API of application (Aloha) used by thousands of restaurant managers accross the US</li>
-                        <li>Upgraded API to .NET Core from .NET Framework, and deployed application to Linux Docker running in Azure</li>
-                        <li>Ran automated tests using Gatling, on API calls such as logins and executing stored procedures on restaurant databases</li>
+                        <li>Rewrote legacy back-end API of application (Aloha) used by thousands of restaurant managers across the US</li>
+                        <li>Upgraded API to .NET Core from .NET Framework, and deployed application to Linux Docker running in Azure for better performance</li>
+                        <li>Ran automated tests using Gatling on API calls such as logging in and executing stored procedures on restaurant databases</li>
                       </ul>
                     </div>
                   </div>
