@@ -4,6 +4,8 @@ export default class Introduction extends Component {
   componentDidMount() {
     this.effect = window.VANTA.NET({
       el: "#vanta-net",
+      mouseControls: true,
+      touchControls: true,
       color: 0xbf5700,
       backgroundColor: 0xffffff,
       spacing: 19
@@ -24,7 +26,7 @@ export default class Introduction extends Component {
                       <div className="slider-text-inner js-fullheight">
                         <div className="desc">
                           <h1>Hi, I'm Abhi</h1>
-                          <p><a className="btn btn-primary btn-learn" href="documents/resume.pdf" target="_blank" rel="noopener noreferrer">View Resume<i className="icon-download4" /></a></p>
+                          <p><a className="btn btn-primary btn-learn" href="https://github.com/AbhiDhir/Resume/blob/master/Abhi_Dhir_Resume.pdf" target="_blank" rel="noopener noreferrer">View Resume<i className="icon-download4" /></a></p>
                         </div>
                       </div>
                     </div>

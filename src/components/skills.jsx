@@ -75,7 +75,7 @@ export default class Skills extends Component {
                         <img className="iconbox" src="images/tex.png" alt="Latex"></img>
                     </div>
                     <div className="col-md-6">
-                        <img className="iconbox" src="images/net.png" alt="x86"></img>
+                        <img className="iconbox" src="images/aws.png" alt="x86"></img>
                     </div>
                 </div>
             </div>

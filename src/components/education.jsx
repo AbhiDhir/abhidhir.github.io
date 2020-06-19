@@ -28,14 +28,14 @@ export default class Education extends Component {
                         <div className="row">
                           <div className="col-md-6">
                             <ul className="school-text">
-                                <li><b>Relevant Courses Taken:</b> Computer Architecture, Probability, Data Structures, Vector Calculus, Matrics, Discrete Mathematics</li>
-                                <li><b>Currently Taking:</b> Operating Systems, Mathematical Statistics, Differential Equations</li>
+                                <li><b>Relevant Courses Taken:</b> Computer Architecture, Operating Systems, Data Structures, Vector Calculus, Predictive Analytics, Computer Vision</li>
+                                <li><b>Currently Taking:</b> Stochastic Processes, Software Engineering</li>
                             </ul>
                           </div>
                           <div className="col-md-6">
                             <ul className="education">
                                 <li><i>Aug 2018 - Exp. May 2022</i></li>
-                                <li><i>Cumulative GPA: 4.0</i></li>
+                                <li><i>Cumulative GPA: 3.91</i></li>
                             </ul>
                           </div>
                         </div>
