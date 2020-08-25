@@ -15,6 +15,20 @@ export default class Experience extends Component {
           <div className="row">
             <div className="col-md-12">
               <div className="timeline-centered">
+              <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                  <div className="timeline-entry-inner">
+                    <div className="timeline-icon color-5">
+                      <i className="icon-pen2" />
+                    </div>
+                    <div className="timeline-label">
+                      <h2>Atlassian - Software Intern <span>May 2020-Aug 2020</span></h2>
+                      <ul>
+                        <li>Built full architecture and implementation for end-to-end notification service from scratch using AWS SQS and Lambdas</li>
+                        <li>Provided customers with automated notifications via email and slack bot for events they had subscribed to</li>
+                        <li>Created fully-automated CI/CD through bitbucket pipelines with unit-testing, linting, and deployment into various environments</li>
+                      </ul>                    </div>
+                  </div>
+                </article>
                 <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                   <div className="timeline-entry-inner">
                     <div className="timeline-icon color-1">
@@ -72,19 +86,6 @@ export default class Experience extends Component {
                         <li>Utilized Android Studio (Java and XML) in order to develop application as well as Firebase for the back-end</li>
                       </ul>                    
                     </div>
-                  </div>
-                </article>
-                <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-                  <div className="timeline-entry-inner">
-                    <div className="timeline-icon color-5">
-                      <i className="icon-pen2" />
-                    </div>
-                    <div className="timeline-label">
-                      <h2>Kynplex - Intern <span>Mar 2016-May 2016</span></h2>
-                      <ul>
-                        <li>Collected and compiled data on hundreds of college research laboratories around the country</li>
-                        <li>Used Microsoft Excel automation to organize information in the desired format</li>
-                      </ul>                    </div>
                   </div>
                 </article>
                 <article className="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
