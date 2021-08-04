@@ -1,41 +1,41 @@
 import React, { Component } from 'react'
 
 export default class Introduction extends Component {
-  // constructor(props) {
-  //   super(props);
-  //   this.state = { width: 0, height: 0 };
-  //   this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
-  // }
+  constructor(props) {
+    super(props);
+    this.state = { width: 0, height: 0 };
+    this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
+  }
   
-  // componentDidMount() {
-  //   this.updateWindowDimensions();
-  //   window.addEventListener('resize', this.updateWindowDimensions);
-  //   this.effect = window.VANTA.NET({
-  //     el: "#vanta-net",
-  //     mouseControls: true,
-  //     touchControls: true,
-  //     color: 0xbf5700,
-  //     backgroundColor: 0xffffff,
-  //     spacing: 19,
-  //     scale: 1.00,
-  //     scaleMobile: 1.00,
-  //     minHeight: this.state.height
-  //   })
-  // }
+  componentDidMount() {
+    this.updateWindowDimensions();
+    window.addEventListener('resize', this.updateWindowDimensions);
+    this.effect = window.VANTA.NET({
+      el: "#vanta-net",
+      mouseControls: true,
+      touchControls: true,
+      color: 0xbf5700,
+      backgroundColor: 0xffffff,
+      spacing: 19,
+      scale: 1.00,
+      scaleMobile: 1.00,
+      minHeight: this.state.height
+    })
+  }
   
-  // componentWillUnmount() {
-  //   window.removeEventListener('resize', this.updateWindowDimensions);
-  // }
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.updateWindowDimensions);
+  }
   
-  // updateWindowDimensions() {
-  //   this.setState({ width: window.innerWidth, height: window.innerHeight });
-  // }
+  updateWindowDimensions() {
+    this.setState({ width: window.innerWidth, height: window.innerHeight });
+  }
 
   render() {
     return (
       <div>
         <section id="colorlib-hero" className="js-fullheight" data-section="home">
-          <div className="flexslider js-fullheight" style={{background: `url("images/background.jpg")`}}>
+          <div className="flexslider js-fullheight vanta-net" id="vanta-net">
             <ul className="slides">
               <li>
                 <div className="overlay" />

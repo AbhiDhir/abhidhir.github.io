@@ -28,8 +28,8 @@ export default class Education extends Component {
                         <div className="row">
                           <div className="col-md-6">
                             <ul className="school-text">
-                                <li><b>Relevant Courses Taken:</b> Computer Architecture, Operating Systems, Data Structures, Vector Calculus, Predictive Analytics, Computer Vision</li>
-                                <li><b>Currently Taking:</b> Stochastic Processes, Software Engineering</li>
+                                <li><b>Relevant Courses Taken:</b> Neural Networks, Computer Vision, Data Mining, Computer Architecture, Operating Systems, Data Structures, Predictive Analytics, Stochastic Processes</li>
+                                {/* <li><b>Currently Taking:</b> Stochastic Processes, Software Engineering</li> */}
                             </ul>
                           </div>
                           <div className="col-md-6">

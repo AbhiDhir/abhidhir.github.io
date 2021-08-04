@@ -15,6 +15,21 @@ export default class Experience extends Component {
           <div className="row">
             <div className="col-md-12">
               <div className="timeline-centered">
+              <article className="timeline-entry animate-box" data-animate-effect="fadeInTop">
+                  <div className="timeline-entry-inner">
+                    <div className="timeline-icon color-4">
+                      <i className="icon-pen2" />
+                    </div>
+                    <div className="timeline-label">
+                      <h2>Microsoft - Software Development Intern <span>May 2021-Aug 2021</span></h2>
+                      <ul>
+                        <li>Built, tested, and deployed Outlook Add-in that assists hundreds of customer support issues</li>
+                        <li>Used Azure Data Explorer, React, and machine learning in continuous delivery of quality application features</li>
+                        <li>Presented weekly demos to multiple service teams and customers to gain feedback and prioritize feature development</li>
+                      </ul>                    
+                    </div>
+                  </div>
+                </article>
               <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                   <div className="timeline-entry-inner">
                     <div className="timeline-icon color-5">
@@ -50,7 +65,7 @@ export default class Experience extends Component {
                       <i className="icon-pen2" />
                     </div>
                     <div className="timeline-label">
-                      <h2>Homeaway - Data Annotator <span>Jan 2019-July 2019</span></h2>
+                      <h2>Homeaway - Data Science Intern <span>Jan 2019-July 2019</span></h2>
                       <ul>
                         <li>Annotated data and worked with text-based natural language processing</li>
                         <li>Contributed to team of full time employees with data prep and sequence to a sequence machine learning model</li>
@@ -69,21 +84,6 @@ export default class Experience extends Component {
                         <li>Implemented a PostgreSQL database using normalization techniques for the Space and Geophysics Laboratory's inventory</li>
                         <li>Created data analysis tools using queries and views to make the previously cumbersome inventory system easy to use</li>
                         <li>Automated '.hdf5' system log file generation and parsing for real-time database inserts using C++ and Python</li>
-                      </ul>                    
-                    </div>
-                  </div>
-                </article>
-                <article className="timeline-entry animate-box" data-animate-effect="fadeInTop">
-                  <div className="timeline-entry-inner">
-                    <div className="timeline-icon color-4">
-                      <i className="icon-pen2" />
-                    </div>
-                    <div className="timeline-label">
-                      <h2>City of Austin IT Department (CTM) - Summer Intern <span>Jun 2016-Jul 2016</span></h2>
-                      <ul>
-                        <li>Led team of other interns in development of and Android application (Asyst) related to elderly care</li>
-                        <li>Application connected citizens desiring a source of extra income with senior citizens in need of safe transportation and technical assistance</li>
-                        <li>Utilized Android Studio (Java and XML) in order to develop application as well as Firebase for the back-end</li>
                       </ul>                    
                     </div>
                   </div>
