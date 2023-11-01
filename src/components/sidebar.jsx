@@ -25,7 +25,7 @@ export default class Sidebar extends Component {
             </nav>
             <nav id="colorlib-main-menu">
               <ul>
-                <li><a href="mailto:adhir@utexas.edu" target="_blank" rel="noopener noreferrer"><i className="icon-mail"></i> adhir@utexas.edu</a></li>
+                <li><a href="mailto:adhir@utexas.edu" target="_blank" rel="noopener noreferrer"><i className="icon-mail"></i> dhir.abhimanyu@gmail.com</a></li>
                 <li><a href="https://www.linkedin.com/in/abhi-dhir/" target="_blank" rel="noopener noreferrer"><i className="icon-linkedin2"/> abhi-dhir</a></li>
                 <li><a href="https://www.github.com/AbhiDhir" target="_blank" rel="noopener noreferrer"><i className="icon-github"/> AbhiDhir</a></li>
               </ul>

@@ -34,7 +34,7 @@ export default class Education extends Component {
                           </div>
                           <div className="col-md-6">
                             <ul className="education">
-                                <li><i>Aug 2018 - Exp. May 2022</i></li>
+                                <li><i>Aug 2018 - May 2022</i></li>
                                 <li><i>Cumulative GPA: 3.91</i></li>
                             </ul>
                           </div>

@@ -17,7 +17,37 @@ export default class Experience extends Component {
               <div className="timeline-centered">
               <article className="timeline-entry animate-box" data-animate-effect="fadeInTop">
                   <div className="timeline-entry-inner">
-                    <div className="timeline-icon color-4">
+                    <div className="timeline-icon color-1">
+                      <i className="icon-pen2" />
+                    </div>
+                    <div className="timeline-label">
+                      <h2>Google - Software Development Engineer <span>Aug 2022-Present</span></h2>
+                      <ul>
+                        <li>Used map-reduce, web mining, machine learning, and other techniques to synthesize quality information from large 3rd part health datasets</li>
+                        <li>Added 600k new health care practitioners to google maps/search results and insurance acceptance information to over 400k locations</li>
+                        <li>Internationalized the hotline OneBox, working extensively with xFn peers to launch in over 20 locales</li>
+                      </ul>                    
+                    </div>
+                  </div>
+                </article>
+                <article className="timeline-entry animate-box" data-animate-effect="fadeInTop">
+                  <div className="timeline-entry-inner">
+                    <div className="timeline-icon color-2">
+                      <i className="icon-pen2" />
+                    </div>
+                    <div className="timeline-label">
+                      <h2>Vana (Startup) - Software Development Intern <span>Aug 2021-Jun 2022</span></h2>
+                      <ul>
+                        <li>Developed data collection processes and 3rd-party integrations on web app that was used by thousands of people</li>
+                        <li>Used React, Hasura, RabbitMQ, Lambdas, and machine learning in a rapid development of changing business objectives</li>
+                        <li>Created architectural designs for various components in the Vana web app to ensure future scalability</li>
+                      </ul>                    
+                    </div>
+                  </div>
+                </article>
+              <article className="timeline-entry animate-box" data-animate-effect="fadeInTop">
+                  <div className="timeline-entry-inner">
+                    <div className="timeline-icon color-3">
                       <i className="icon-pen2" />
                     </div>
                     <div className="timeline-label">
@@ -32,7 +62,7 @@ export default class Experience extends Component {
                 </article>
               <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                   <div className="timeline-entry-inner">
-                    <div className="timeline-icon color-5">
+                    <div className="timeline-icon color-4">
                       <i className="icon-pen2" />
                     </div>
                     <div className="timeline-label">
@@ -46,7 +76,7 @@ export default class Experience extends Component {
                 </article>
                 <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                   <div className="timeline-entry-inner">
-                    <div className="timeline-icon color-1">
+                    <div className="timeline-icon color-5">
                       <i className="icon-pen2" />
                     </div>
                     <div className="timeline-label">
@@ -61,7 +91,7 @@ export default class Experience extends Component {
                 </article>
                 <article className="timeline-entry animate-box" data-animate-effect="fadeInRight">
                   <div className="timeline-entry-inner">
-                    <div className="timeline-icon color-2">
+                    <div className="timeline-icon color-1">
                       <i className="icon-pen2" />
                     </div>
                     <div className="timeline-label">
@@ -75,7 +105,7 @@ export default class Experience extends Component {
                 </article>
                 <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                   <div className="timeline-entry-inner">
-                    <div className="timeline-icon color-3">
+                    <div className="timeline-icon color-2">
                       <i className="icon-pen2" />
                     </div>
                     <div className="timeline-label">
